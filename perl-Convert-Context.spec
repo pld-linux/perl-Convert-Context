@@ -26,7 +26,7 @@ atrybutami w podobny sposób jak do normalnych ³añcuchów.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 
 %install
 rm -rf $RPM_BUILD_ROOT
