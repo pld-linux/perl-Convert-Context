@@ -1,13 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Perl Convert-Context module
 Summary(pl):	Modu³ Perla Convert-Context
-Name: 		perl-Convert-Context
-Version: 	0.501
-Release: 	5
-Copyright:	GPL
-Group: 		Development/Languages/Perl
+Name:		perl-Convert-Context
+Version:	0.501
+Release:	5
+License:	GPL
+Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source: 	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Convert/Convert-Context-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Convert/Convert-Context-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,12 +15,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert-Context allows you to access attributed strings similiar to perl's 
-normal strings.
+Convert-Context allows you to access attributed strings similiar to
+perl's normal strings.
 
 %description -l pl
-Convert-Context umo¿liwia dostêp do ³añcuchów z przyporz±dkowanymi atrybutami 
-w podobny sposób jak do normalnych ³añcuchów.
+Convert-Context umo¿liwia dostêp do ³añcuchów z przyporz±dkowanymi
+atrybutami w podobny sposób jak do normalnych ³añcuchów.
 
 %prep
 %setup -q -n Convert-Context-%{version}
