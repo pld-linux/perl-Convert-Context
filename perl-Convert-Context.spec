@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	Context
-Summary:	Perl Convert-Context module
-Summary(pl):	Modu³ Perla Convert-Context
+Summary:	Perl Convert::Context module
+Summary(pl):	Modu³ Perla Convert::Context
 Name:		perl-Convert-Context
 Version:	0.501
 Release:	10
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert-Context allows you to access attributed strings similiar to
+Convert::Context allows you to access attributed strings similiar to
 perl's normal strings.
 
 %description -l pl
-Convert-Context umo¿liwia dostêp do ³añcuchów z przyporz±dkowanymi
+Convert::Context umo¿liwia dostêp do ³añcuchów z przyporz±dkowanymi
 atrybutami w podobny sposób jak do normalnych ³añcuchów.
 
 %prep
