@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	Context
-%include	/usr/lib/rpm/macros.perl
 Summary:	Perl Convert-Context module
 Summary(pl):	Modu³ Perla Convert-Context
 Name:		perl-Convert-Context
 Version:	0.501
-Release:	9
-
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Convert-Context umo¿liwia dostêp do ³añcuchów z przyporz±dkowanymi
 atrybutami w podobny sposób jak do normalnych ³añcuchów.
 
 %prep
-%setup -q -n Convert-Context-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
