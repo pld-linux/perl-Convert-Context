@@ -28,7 +28,7 @@ atrybutami w podobny sposób jak do normalnych ³añcuchów.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 
 %install
 rm -rf $RPM_BUILD_ROOT
