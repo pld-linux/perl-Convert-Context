@@ -1,3 +1,4 @@
+%define         perl_sitelib	%(eval "`perl -V:installsitelib`"; echo $installsitelib)
 Summary:	Perl Convert-Context module
 Summary(pl):	Modu³ Perla Convert-Context
 Name: 		perl-Convert-Context
@@ -47,8 +48,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 
-%dir %{perl_sitearch}/Convert
-%{perl_sitearch}/Convert/Context.pm
+%dir %{perl_sitelib}/Convert
+%{perl_sitelib}/Convert/Context.pm
 
 %dir %{perl_sitearch}/auto/Convert
 %dir %{perl_sitearch}/auto/Convert/Context
