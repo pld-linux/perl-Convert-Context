@@ -3,7 +3,7 @@ Summary:	Perl Convert-Context module
 Summary(pl):	Modu³ Perla Convert-Context
 Name: 		perl-Convert-Context
 Version: 	0.501
-Release: 	3
+Release: 	4
 Copyright:	GPL
 Group: 		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
@@ -48,11 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 
-%dir %{perl_sitelib}/Convert
 %{perl_sitelib}/Convert/Context.pm
-
-%dir %{perl_sitearch}/auto/Convert
-%dir %{perl_sitearch}/auto/Convert/Context
-%{perl_sitearch}/auto/Convert/Context/.packlist
+%{perl_sitearch}/auto/Convert/Context
 
 %{_mandir}/man3/*
