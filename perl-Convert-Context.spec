@@ -3,7 +3,7 @@ Summary:	Perl Convert-Context module
 Summary(pl):	Modu³ Perla Convert-Context
 Name:		perl-Convert-Context
 Version:	0.501
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
