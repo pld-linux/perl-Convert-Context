@@ -2,7 +2,7 @@
 %define		pdir	Convert
 %define		pnam	Context
 Summary:	Convert::Context Perl module - an attributed text data type
-Summary(pl):	Modu³ Perla Convert::Context - typ danych: tekst z atrybutami
+Summary(pl.UTF-8):   ModuÅ‚ Perla Convert::Context - typ danych: tekst z atrybutami
 Name:		perl-Convert-Context
 Version:	0.501
 Release:	12
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Convert::Context module maintains attributed strings.  It allows you
 to access those strings similiar to Perl's normal strings.
 
-%description -l pl
-Modu³ Convert::Context zarz±dza ³añcuchami tekstowymi z
-przyporz±dkowanymi atrybutami. Umo¿liwia dostêp do tych ³añcuchów w
-podobny sposób jak do normalnych ³añcuchów Perla.
+%description -l pl.UTF-8
+ModuÅ‚ Convert::Context zarzÄ…dza Å‚aÅ„cuchami tekstowymi z
+przyporzÄ…dkowanymi atrybutami. UmoÅ¼liwia dostÄ™p do tych Å‚aÅ„cuchÃ³w w
+podobny sposÃ³b jak do normalnych Å‚aÅ„cuchÃ³w Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
