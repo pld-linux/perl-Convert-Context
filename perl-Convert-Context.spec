@@ -2,7 +2,7 @@
 %define		pdir	Convert
 %define		pnam	Context
 Summary:	Convert::Context Perl module - an attributed text data type
-Summary(pl.UTF-8):   Moduł Perla Convert::Context - typ danych: tekst z atrybutami
+Summary(pl.UTF-8):	Moduł Perla Convert::Context - typ danych: tekst z atrybutami
 Name:		perl-Convert-Context
 Version:	0.501
 Release:	12
