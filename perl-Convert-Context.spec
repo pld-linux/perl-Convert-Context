@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Convert
 %define		pnam	Context
+%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::Context Perl module - an attributed text data type
 Summary(pl.UTF-8):	Moduł Perla Convert::Context - typ danych: tekst z atrybutami
 Name:		perl-Convert-Context
@@ -10,14 +10,15 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	701f73725e44b34f89a0cba23e74d672
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Convert-Context/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert::Context module maintains attributed strings.  It allows you
-to access those strings similiar to Perl's normal strings.
+Convert::Context module maintains attributed strings. It allows you to
+access those strings similiar to Perl's normal strings.
 
 %description -l pl.UTF-8
 Moduł Convert::Context zarządza łańcuchami tekstowymi z
