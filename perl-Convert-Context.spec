@@ -1,6 +1,5 @@
 %define		pdir	Convert
 %define		pnam	Context
-%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::Context Perl module - an attributed text data type
 Summary(pl.UTF-8):	Moduł Perla Convert::Context - typ danych: tekst z atrybutami
 Name:		perl-Convert-Context
